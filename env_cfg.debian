@@ -1,0 +1,2 @@
+set "LINUX_QTDIR=/usr/lib/qt5"
+set "LINUX_BOOST_DIR=/home/user/devtools/boost_1_81_0"
