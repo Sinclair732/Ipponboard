@@ -7,3 +7,5 @@ source ./build.sh
 check_cmake
 init_environment
 create_makefiles
+build_all
+
