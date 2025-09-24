@@ -237,6 +237,8 @@ function switch_config {
     export TEST_BIN_DIR="$IPPONBOARD_ROOT_DIR/_bin/Test-$CONFIG"
 }
 
-# Main
-check_cmake
-main_loop
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+	# Main
+	check_cmake
+	main_loop
+fi
